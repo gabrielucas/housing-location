@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
-import { HousingLocation, SubmitData } from '../@types';
-import { HousingService } from '../housing.service';
+import { HousingLocation } from '../../@types';
+import { HousingService } from '../../housing.service';
 
 @Component({
   selector: 'app-details',
